@@ -4,7 +4,7 @@
 #a post-pull-script
 
 if [ -z "${1}" ]; then
-	echo "Please specify enviornment";
+	echo "Please specify environment";
 	exit;
 fi
 
