@@ -20,7 +20,7 @@ eval `$ENVVARS`
 
 
 
-SERVER_PULL_CMD="$ENV_REPODIR/ttools-serversync/lib/overwrite-current-site.sh $ENV";
+SERVER_PULL_CMD="$ENV_REPODIR/ttools-githelpers/lib/git-pull.sh";
 SERVER_POST_PULL_CMD="";
 if [ "${POST_PULL_SCRIPT}" ]; then
 	SERVER_POST_PULL_CMD="$POST_PULL_SCRIPT;";
