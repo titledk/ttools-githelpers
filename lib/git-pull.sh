@@ -7,6 +7,9 @@ cd $BASEDIR
 
 CURRENT_BRANCH="$(git branch | sed -n '/\* /s///p')"
 
+echo "On branch $CURRENT_BRANCH. Now pulling in latest changes..."
+echo ""
+
 git pull origin $CURRENT_BRANCH;
 
 git submodule init;
