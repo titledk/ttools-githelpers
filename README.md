@@ -11,11 +11,5 @@ these scripts assume you're using git sub modules in your workflow
 
 ## Installation
 
-Add this, and terminal tools as git sub modules to your web project, the
-recommended structure is the following:
-
-* `my repo`
-	* `public` <= your web root
-	* `ttools-core`
-	* `ttools-githelpers`
+	git submodule add https://github.com/titledk/ttools-githelpers.git ttools/githelpers
 
