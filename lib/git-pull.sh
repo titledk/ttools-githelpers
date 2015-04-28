@@ -1,5 +1,5 @@
 #! /bin/bash
-#This script pulls current branch and updates sub moduels
+#This script pulls current branch and updates sub modules
 
 BASEDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd ../../.. && pwd )";
 
