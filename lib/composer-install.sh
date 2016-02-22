@@ -21,7 +21,7 @@ else
 	
 	#echo $ENV_COMPOSERPATH;
 	
-	$ENV_COMPOSERPATH install;
+	$ENV_COMPOSERPATH install --no-dev;
 fi
 
 
