@@ -14,7 +14,7 @@ git pull origin $CURRENT_BRANCH;
 
 git submodule init;
 git submodule sync;
-git submodule update;
+git submodule update --recursive;
 
 
 POST_PULL_SCRIPT=$1;
